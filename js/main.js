@@ -1,9 +1,16 @@
-var nome = "Raul";
-var idade = "16";
-var idade2 = "11";
-var frase = "Russia é o melhor time do mundo";
-//alert("Olá, Mundo! O "+nome+" tem "+idade+" anos");
-//alert(idade + idade2);
-alert(frase.toLowerCase());
-alert(frase.toUpperCase());
-alert(frase.replace("Russia","Brasil").toUpperCase());
+/*var lista = ["maça","laranja","melancia"];
+lista.push("uva");
+lista.pop();*/
+
+//console.log(lista.length)
+//console.log(lista.reverse())
+/*console.log(lista);
+console.log(lista.toString());
+console.log(lista[0]);
+console.log(lista.toString()[0]);
+console.log(lista.join(" - "));
+*/
+
+var frutas = [{nome: "pera", cor: "verde"},{nome: "melancia", cor:"vermelho"}];
+console.log(frutas[1].nome)
+console.log(frutas[0].cor)
